@@ -1,0 +1,31 @@
+# Docker Swarm Course-End Project
+
+## Project Overview
+This project demonstrates the deployment of a microservices-based voting application using Docker Swarm.
+
+## Services Deployed
+- Vote Service
+- Result Service
+- Worker Service
+- Redis
+- PostgreSQL
+
+## Technologies Used
+- Docker
+- Docker Swarm
+- Overlay Networks
+- Docker Volumes
+- PostgreSQL
+- Redis
+
+## Deployment Verification
+- Docker Swarm initialized successfully.
+- Stack deployed using `docker stack deploy`.
+- Services verified using `docker service ls`.
+- Containers verified using `docker ps`.
+- Application functionality confirmed using local HTTP requests.
+
+## Stack Deployment Command
+
+```bash
+docker stack deploy -c myapp.yml myvotingapp
